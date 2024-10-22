@@ -10,10 +10,10 @@ Link do vídeo no youtube: https://youtu.be/9FcvbNARlzE
 
 Link para o Wokwi: https://wokwi.com/projects/412474748400477185
 
-// Configurações de Wi-Fi e MQTT
-const char* ssid = "Wokwi-GUEST"; 
-const char* password = ""; 
-const char* mqtt_server = "test.mosquitto.org"; 
-const char* mqtt_topic = "esp32/sensorDistancia"; 
+// Configurações de Wi-Fi e MQTT                                    
+const char* ssid = "Wokwi-GUEST";                           
+const char* password = "";                    
+const char* mqtt_server = "test.mosquitto.org";                    
+const char* mqtt_topic = "esp32/sensorDistancia";                          
 
 Dentro do arquivo há o código utilizado no arduino ide, uma foto do circuito físico do arduino, o arquivo do fluxo no Node-RED e uma foto do mesmo. 
